@@ -71,7 +71,7 @@ let a = prompt("Введите a ");
 a = parseInt(a);
 
 switch (a) {
-    case "0": while(a <= 15) {
+    case "0": while(a <= 15) {  //Зачем каждый раз цикл? Мы разве их проходили? Задание было на логику, чтобы вы поняли как работает switch
         console.log(a);
         a++;
     }
@@ -165,9 +165,9 @@ let x = prompt("Введите x ");
 
 let y = prompt("Введите y ");
 
-x = parseInt(x); //перевод в целое число
+x = parseInt(x); //перевод в целое число - это одобряю
 
-y = parseInt(y); //перевод в целое число
+y = parseInt(y); //перевод в целое число - это одобряю
 
 function sum (a, b) { //сумма
     return a + b;
@@ -222,7 +222,7 @@ function division (g, h) { //деление
 
 function action (arg1, arg2, operation){
 
-return operation(arg1, arg2);
+return operation(arg1, arg2); //Почему остановились? В эту функцию нужно было положить код снизу и вызывать в зависимости от операции микро-функцию операции.
 
 }
 
